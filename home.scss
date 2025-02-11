@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+.home{
+    display: flex;
+
+    .col{
+        width: 100%;
+        min-height: v.$min-height;
+        background-color: indigo;
+        padding: v.$site-padding;
+
+        &:nth-child(even) {
+            background-color: blue;
+        }
+
+    }
+}
